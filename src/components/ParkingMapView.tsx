@@ -55,7 +55,7 @@ export const ParkingMapView: React.FC<ParkingMapViewProps> = ({
         <div className="map-header-info">
           <div className="zone-pill-small">
             <MapPin size={12} />
-            <span>{zone.floor}</span>
+            <span>1 Lantai • Area {zone.id}</span>
           </div>
           <h2 className="map-zone-title">{zone.name}</h2>
         </div>

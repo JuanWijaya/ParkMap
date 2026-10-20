@@ -17,6 +17,7 @@ export interface ZoneDistance {
 export interface ParkingZone {
   id: string;
   name: string;
+  floor?: string;
   description: string;
   totalSlots: number;
   slots: ParkingSlot[];
